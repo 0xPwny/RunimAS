@@ -70,7 +70,7 @@ proc createProcessWithLogon(
     LOGON_WITH_PROFILE,
     nil,
     wCommand,
-    CREATE_NO_WINDOW,
+    0,  	      #CREATE_NO_WINDOW,
     nil,
     nil,
     addr si,
